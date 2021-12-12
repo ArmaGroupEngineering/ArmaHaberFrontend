@@ -3,6 +3,9 @@
     --white: #ffffff;
 }
 
+.material-icons {
+    font-family: 'Material Icons';}
+
 /*COLOR VARIABLES WILL BE INCREASED*/
 * {
     margin: 0;
