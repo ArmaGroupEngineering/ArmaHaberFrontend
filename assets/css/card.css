@@ -8,7 +8,20 @@
   background: #fff;
   position: relative;
   overflow: hidden;
+  
 }
+
+#content-holder h4 {
+  color: gray;
+  font-size: 9px;
+}
+
+#content-holder .card-title span {
+  padding-left: 3px;
+  padding-right: 6px;
+}
+
+
 #content-holder .card:hover, .card.hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
@@ -225,12 +238,12 @@
   padding:15px;
   text-align:left;
 }
-#card-group3 .card-title {
+#card-group3 .card3-title {
   margin-top:0px;
   font-weight: 700;
   font-size: 1.65em;
 }
-#card-group3 .card-title a {
+#card-group3 .card3-title a {
   color: #000;
   text-decoration: none !important;
 }
@@ -242,4 +255,13 @@
   padding:10px;
   font-weight:600;
   text-transform: uppercase
+}
+
+#card-group3 .news-detail h4{
+  color: gray;
+  font-size: 10px;
+}
+
+.login-form-nav{
+  width: 250px;
 }
