@@ -1,0 +1,16 @@
+body{
+    background-color: whitesmoke;
+}
+section .container-fluid{
+    padding: 15px;
+}
+
+section .row{
+    background-color: white;
+    padding: 15px;
+    border-radius: 0.2%;
+}
+.share-buttons{
+    margin-top: 1em;
+    color:black;
+}
