@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+
+    <!-- OUR OWN META TAGS -->
+    <meta name="description"
+        content="Arma Haber, Global dünyaya bir tık kadar yakınsınız. Anlık son dakika haberleri, en son haberler, gazete manşetleri, köşe yazarları, namaz vakitleri, yerel haberler, siyaset, spor, ekonomi ve daha fazlası Arma Haber'de. ">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.armahaber.com">
+    <meta property="og:title" content="ARMA HABER">
+    <meta property="og:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
+    <meta property="og:image" src="/assets/images/armalogo.jpg">
+    <!-- Open Graph / Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="www.armahaber.com">
+    <meta property="twitter:title" content="Arma HABER">
+    <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
+    <meta property="twitter:image" src="/assets/images/armalogo.jpg">
+
+    <title>ARMA HABER</title>
+    <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
+    <!-- OUR OWN CSS LINKS -->
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/card.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/breakingNews.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/email.css">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+
+
+</head>
+
+<!-- BODY -->
+
+<body>
+    <div class="container-fluid body-holder">
+        <!-- HEADER -->
+        <header class="top-header">
+            <!-- FIRST NAVBAR -->
+            <nav>
+                <div class="container-md ">
+                    <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark ">
+                        <!-- LOGO -->
+                        <img src="assets/images/armalogo.jpg" alt="Arma Haber Logo">
+                        <a class="navbar-brand" href="index.html">Arma Group</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- END OF LOGO -->
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav me-auto mb-3 mb-lg-0 "></ul>
+
+                            <!-- SEARCH BAR -->
+                            <div class="input-group nav-search-bar">
+                                <div class="form-outline">
+                                    <input type="search" id="form1" class="form-control" placeholder="Haber Bul..." />
+                                </div>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            <!-- END OF SEARCH BAR -->
+
+                            <!-- LOGIN SECTION -->
+                            <ul class="navbar-nav mb-3 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span style="color: Dodgerblue; padding-right:1em;"><i
+                                                class="fas fa-user fa-lg"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="container login-form-nav">
+                                            <div class="card my-5">
+                                                <form class="card-body cardbody-color">
+                                                    <div class="text-center">
+                                                        <img src="assets/images/armalogo.jpg"
+                                                            class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                                                            width="200px" alt="profile">
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" id="Username"
+                                                            aria-describedby="emailHelp" placeholder="Kullanıcı Adı">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="password" class="form-control" id="password"
+                                                            placeholder="Parola">
+                                                    </div>
+                                                    <div class="text-center"><button type="submit"
+                                                            class="btn btn-primary px-5 mb-5 w-100">Giriş Yap</button>
+                                                    </div>
+                                                    <div id="emailHelp" class="form-text text-center mb-5 text-dark">
+                                                        Hesabınız Yok Mu? <a href="#" class="text-dark fw-bold"> Kayıt
+                                                            Ol!</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- END OF LOGIN SECTION -->
+                        </div>
+                    </nav>
+                    <!-- END OF FIRST NAVBAR -->
+                </div>
+                <hr id="nav-divider">
+                <div id="nav-backgr">
+                    <div class="container-md">
+                        <!-- SECOND NAVBAR -->
+                        <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
+                            style="background-color: darkred">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav mb-3 mb-lg-0 ">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Haber</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="categoryContent.html">Son
+                                                Dakika</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Spor</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Siyaset</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Magazin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sanat</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Mutfak</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Seyahat</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Diğer
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- END OF SECOND NAVBAR -->
+                    </div>
+                </div>
+
+                <!-- BREAKING NEWS -->
+                <div class="container-fluid">
+                    <div class="ticker-wrap">
+                        <div class="ticker">
+                            <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
+                            <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya
+                                imza
+                                attı</a>
+                            <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
+                                gerginliği</a>
+                            <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı
+                                vurdu:
+                                Dalga boyu 3
+                                metreyi aştı, köprü çöktü </a>
+                            <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
+                                gelişmeleri
+                            </a>
+                            <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un
+                                altını
+                                gördü </a>
+                            <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
+                            <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla
+                                ellerinde
+                                toza
+                                döndü
+                            </a>
+                            <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
+                                Jandarmalar
+                                eşini ondan
+                                korumaya çalışıyordu </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF BREAKING NEWS -->
+                <hr id="sdk-seperator">
+            </nav>
+        </header>
+        <!-- END OF HEADER -->
+        <!-- Jumbotron -->
+        <div id="intro" class="p-5 text-center bg-light">
+            <h1 class="mb-3 h2">Tüm Kategoriler</h1>
+            <p class="mb-3">En Güncel Haberlere Arma ile Ulaşın</p>
+        </div>
+        <!-- Jumbotron -->
+        <!--Main Navigation-->
+
+        <!--Main layout-->
+        <main class="my-5">
+            <div class="container-md">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-4">
+                        <!--Section: Content-->
+                        <section>
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Siyaset
+                                            Haberleri</a></h5>
+                                    <p>
+                                        <b>En güncel son dakika haberleri Arma'da. Arma sizin için en güncel haberleri
+                                            toplar ve en güzel bir biçimde sunar.</b> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Sint deserunt, omnis, culpa ad nesciunt, voluptas
+                                        modi iusto quasi aspernatur nam sed maxime!
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Magazin
+                                            Haberleri</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Dünyadan
+                                            Haberler</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Spor Haberleri</a>
+                                    </h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Mutfak
+                                            Haberleri</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Son Dakika
+                                            Haberleri</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Siyaset
+                                            Haberleri</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+
+                            <!-- Post -->
+                            <div class="row mb-3">
+                                <div class="col-md-4 mb-4">
+                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                        data-mdb-ripple-color="light">
+                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Seyahat
+                                            Haberleri</a></h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
+                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
+                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
+                                        magni.
+                                    </p>
+
+                                    <a href="categoryContent.html"><button type="button"
+                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-4">
+                        <!--Section: Sidebar-->
+                        <section class="sticky-top" style="top: 80px;">
+                            <!--Section: Ad-->
+                            <section class="text-center border-bottom pb-4 mb-4">
+                                <div class="bg-image hover-overlay ripple mb-4">
+                                    <img src="/assets/images/armalogo.jpg" class="img-fluid" />
+                                    <a href="#" target="_blank">
+                                        <div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+                                    </a>
+                                </div>
+                                <h5>Burası Reklam Başlığı Olacak</h5>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis maiores
+                                    minima quis? Voluptatibus deleniti, eum mollitia aliquid at quidem officia laborum
+                                    repudiandae quod ipsam facilis recusandae maxime doloremque excepturi?
+                                </p>
+                                <a role="button" class="btn btn-primary" href="#" target="_blank">Hemen Kullanmaya
+                                    Başla<i class="fas fa-download ms-2"></i></a>
+                            </section>
+                            <!--Section: Ad-->
+                        </section>
+                        <!--Section: Sidebar-->
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+            </div>
+        </main>
+        <!--Main layout-->
+
+        <!-- FOOTER -->
+        <footer class="bg-dark text-white text-center text-md-start mt-5">
+            <div class="container p-4">
+                <div class="row">
+                    <section class="mt-4">
+                        <form action="" class="mb-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-auto">
+                                    <p class="pt-2">
+                                        <strong>Haber bültenimize kayıt olun</strong>
+                                    </p>
+                                </div>
+                                <div class="col-md-5 col-12">
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="email" class="form-control" placeholder="E-Posta Adresiniz..." />
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                        Abone Ol
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">ARMA HABER</h5>
+                        <p>Arma Haber, Global dünyaya bir tık kadar yakınsınız. Anlık son dakika haberleri, en son
+                            haberler,
+                            gazete manşetleri, köşe yazarları, namaz vakitleri, yerel haberler, siyaset, spor,
+                            ekonomi
+                            ve
+                            daha fazlası Arma Haber'de.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-white">Haber</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Son Dakika</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Spor</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Magazin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white">Sanat</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Müzik</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Mutfak</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Seyahat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="mt-4">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto" style="font-size: 0.7rem;">
+                            <a href="#facebook" style="color: white;"><i class="fab fa-facebook fa-2x"></i></a>
+                            &nbsp;
+                            <a href="#twitter" style="color: white"><i class="fab fa-twitter fa-2x"></i></a> &nbsp;
+                            <a href="#instagram" style="color: white"><i class="fab fa-instagram fa-2x"></i></a>
+                            &nbsp;
+                            <a href="#google" style="color: white"><i class="fab fa-google fa-2x"></i></a> &nbsp;
+                            <a href="#apple" style="color: white"><i class="fab fa-apple fa-2x"></i></a> &nbsp;
+                            <a href="#linkedin" style="color: white"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright:
+                <a class="text-white" href="#">armahaber.com</a>
+            </div>
+        </footer>
+        <!-- END OF FOOTER -->
+    </div>
+
+
+    <!-- SCRIPT FILES -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
+    <script src="/assets/fontawesome/js/all.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/searchbar.js"></script>
+    <!-- END OF SCRIPT FILES -->
+</body>
+
+</html>
