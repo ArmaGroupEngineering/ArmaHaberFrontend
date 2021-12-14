@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>Güzel haber İçeriğinin Başlığı</title>
+    <title>Güzel Haber İçeriği Başlığı</title>
     <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
@@ -38,12 +38,17 @@
 
 </head>
 
+<!-- BODY -->
+
 <body>
     <div class="container-fluid body-holder">
+        <!-- HEADER -->
         <header class="top-header">
+            <!-- FIRST NAVBAR -->
             <nav>
                 <div class="container-md ">
                     <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark ">
+                        <!-- LOGO -->
                         <img src="assets/images/armalogo.jpg" alt="Arma Haber Logo">
                         <a class="navbar-brand" href="index.html">Arma Group</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,17 +56,22 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        <!-- END OF LOGO -->
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav me-auto mb-3 mb-lg-0 "></ul>
 
+                            <!-- SEARCH BAR -->
+                            <div class="input-group nav-search-bar">
+                                <div class="form-outline">
+                                    <input type="search" id="form1" class="form-control" placeholder="Haber Bul..." />
+                                </div>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            <!-- END OF SEARCH BAR -->
 
-                            <form class="d-flex">
-
-                                <input class="form-control me-2" type="search" placeholder="Haber Bul..."
-                                    aria-label="Search">
-                                <button class="btn btn-outline-primary" type="submit"><i
-                                        class="fas fa-search"></i></button>
-                            </form>
+                            <!-- PROFILE SECTION -->
                             <ul class="navbar-nav mb-3 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -99,12 +109,15 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <!-- END OF PROFILE SECTION -->
                         </div>
                     </nav>
+                    <!-- END OF FIRST NAVBAR -->
                 </div>
                 <hr id="nav-divider">
                 <div id="nav-backgr">
                     <div class="container-md">
+                        <!-- SECOND NAVBAR -->
                         <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
                             style="background-color: darkred">
                             <div class="container-fluid">
@@ -154,8 +167,11 @@
                                 </div>
                             </div>
                         </nav>
+                        <!-- END OF SECOND NAVBAR -->
                     </div>
                 </div>
+
+                <!-- BREAKING NEWS -->
                 <div class="container-fluid">
                     <div class="ticker-wrap">
                         <div class="ticker">
@@ -188,9 +204,11 @@
                         </div>
                     </div>
                 </div>
+                <!-- END OF BREAKING NEWS -->
                 <hr id="sdk-seperator">
             </nav>
         </header>
+        <!-- END OF HEADER -->
         <section id="content-display">
             <div class="homepage-contents">
                 <div class="container-md">

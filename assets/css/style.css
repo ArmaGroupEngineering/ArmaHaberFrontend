@@ -4,7 +4,8 @@
 }
 
 .material-icons {
-    font-family: 'Material Icons';}
+    font-family: 'Material Icons';
+}
 
 /*COLOR VARIABLES WILL BE INCREASED*/
 * {
@@ -19,8 +20,8 @@
 }
 
 /*BODY HOLDER DIV CONTAINER*/
-.body-holder{
-    margin:0;
+.body-holder {
+    margin: 0;
     padding: 0;
 }
 
@@ -50,18 +51,26 @@ h2 {
     margin-top: 3em;
     margin-bottom: 3em;
 }
+
 /*NEW CARDS*/
 
-#sdk-seperator{
+#sdk-seperator {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
 
 .page-load-status {
-    display: none; /* hidden by default */
+    display: none;
+    /* hidden by default */
     padding-top: 20px;
     border-top: 1px solid #DDD;
     text-align: center;
     color: #777;
-  }
+}
+
+.nav-search-bar {
+    justify-content: center; 
+    text-align: center; 
+    align-items: center;
+}
