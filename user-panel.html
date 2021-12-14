@@ -32,7 +32,6 @@
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/breakingNews.css">
     <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/email.css">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
 
 
@@ -102,59 +101,169 @@
                         </div>
                     </nav>
                 </div>
-                <hr id="nav-divider">
-                <div id="nav-backgr">
-                    <div class="container-md">
-                        <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
-                            style="background-color: darkred">
-                            <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
+            </div>
+
+            <div class="ticker-wrap">
+                <div class="ticker">
+                    <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
+                    <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya imza
+                        attı</a>
+                    <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
+                        gerginliği</a>
+                    <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı vurdu:
+                        Dalga boyu 3
+                        metreyi aştı, köprü çöktü </a>
+                    <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
+                        gelişmeleri
+                    </a>
+                    <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un altını
+                        gördü </a>
+                    <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
+                    <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla ellerinde
+                        toza
+                        döndü
+                    </a>
+                    <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
+                        Jandarmalar
+                        eşini ondan
+                        korumaya çalışıyordu </a>
+                </div>
+            </div>
+            <hr id="sdk-seperator">
+        </nav>
+    </header>
+
+    <section id="panel1">
+        <div class="container-lg">
+            <div class="row d-flex justify-content-center h-100">
+                <div class="col-3" style="background-color: white;">
+                    <div class="container-fluid justify-content-center" id="user-info">
+                        <img src="assets/images/person-icon.png" alt="Generic placeholder image"
+                            class="img-fluid img-thumbnail mx-auto d-block mt-4 mb-2" style="width: 150px; z-index: 1">
+                        <div class="">
+                            <p class="lead fw-normal mb-1">About</p>
+                            <div class="p-4" style="background-color: #f8f9fa;">
+                                <p class="font-italic mb-1">Utku Akyüz</p>
+                                <p class="font-italic mb-1">Web Developer</p>
+                                <p class="font-italic mb-1">YAZAR</p>
+                                <p class="font-italic mb-0">İletişim</p>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark">
+                        <ul class="nav flex-column nav-link">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Haber Ekle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Yorumlarım</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Beğendiklerim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Favorilerim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Takip Ettiklerim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Okuduklarım</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bildirimler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Çıkış Yap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="col-9">
+                    <div class="card">
+                        <div class="rounded-top text-white d-flex flex-row"
+                            style="background-color: #000; height:200px;">
+                            <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+                                <img src="assets/images/person-icon.png" alt="Generic placeholder image"
+                                    class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
+                                <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
+                                    style="z-index: 1;">
+                                    Edit profile
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                    <ul class="navbar-nav mb-3 mb-lg-0 ">
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">Haber</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">Son Dakika</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#">Spor</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Siyaset</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Magazin</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Sanat</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Mutfak</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Seyahat</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Diğer
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                            </div>
+                            <div class="ms-3" style="margin-top: 130px;">
+                                <h5>Andy Horwitz</h5>
+                                <p>New York</p>
+                            </div>
+                        </div>
+                        <div class="p-4 text-black" style="background-color: #f8f9fa;">
+                            <div class="d-flex justify-content-end text-center py-1">
+                                <div>
+                                    <p class="mb-1 h5">253</p>
+                                    <p class="small text-muted mb-0">Photos</p>
+                                </div>
+                                <div class="px-3">
+                                    <p class="mb-1 h5">1026</p>
+                                    <p class="small text-muted mb-0">Followers</p>
+                                </div>
+                                <div>
+                                    <p class="mb-1 h5">478</p>
+                                    <p class="small text-muted mb-0">Following</p>
                                 </div>
                             </div>
-                        </nav>
+                        </div>
+                        <div class="card-body p-4 text-black">
+                            <div class="mb-5">
+                                <p class="lead fw-normal mb-1">About</p>
+                                <div class="p-4" style="background-color: #f8f9fa;">
+                                    <p class="font-italic mb-1">Web Developer</p>
+                                    <p class="font-italic mb-1">Lives in New York</p>
+                                    <p class="font-italic mb-0">Photographer</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <p class="lead fw-normal mb-0">Recent photos</p>
+                                <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col mb-2">
+                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(112).jpg"
+                                        alt="image 1" class="w-100 rounded-3">
+                                </div>
+                                <div class="col mb-2">
+                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(107).jpg"
+                                        alt="image 1" class="w-100 rounded-3">
+                                </div>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col">
+                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(108).jpg"
+                                        alt="image 1" class="w-100 rounded-3">
+                                </div>
+                                <div class="col">
+                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(114).jpg"
+                                        alt="image 1" class="w-100 rounded-3">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="panel">
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
+                            class="rounded-circle mt-5" width="150px" src="assets/images/person-icon.png"><span
+                            class="font-weight-bold">Utku Akyüz</span><span
+                            class="text-black-50">utk145u@gmail.com</span><span>YAZAR/ÇAYLAK</span></div>
                 </div>
                 <div class="container-md">
                     <div class="ticker-wrap">
@@ -246,75 +355,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center experience"><span>İlgi Alanlarını
+                                Düzenle
 
-            </div>
-        </section>
-        <!-- Footer -->
-        <footer class="bg-dark text-white text-center text-md-start mt-5">
-            <div class="container p-4">
-                <div class="row">
-                    <section class="mt-4">
-                        <form action="" class="mb-4">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-auto">
-                                    <p class="pt-2">
-                                        <strong>Haber bültenimize kayıt olun</strong>
-                                    </p>
-                                </div>
-                                <div class="col-md-5 col-12">
-                                    <div class="form-outline form-white mb-4">
-                                        <input type="email" class="form-control" placeholder="E-Posta Adresiniz..." />
-                                    </div>
-                                </div>
-                                <div class="col-auto">
-                                    <button type="submit" class="btn btn-outline-light mb-4">
-                                        Abone Ol
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">ARMA HABER</h5>
-                        <p>Arma Haber, Global dünyaya bir tık kadar yakınsınız. Anlık son dakika haberleri, en son
-                            haberler,
-                            gazete manşetleri, köşe yazarları, namaz vakitleri, yerel haberler, siyaset, spor,
-                            ekonomi
-                            ve
-                            daha fazlası Arma Haber'de.
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#" class="text-white">Haber</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Son Dakika</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Spor</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Magazin</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="text-white">Sanat</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Müzik</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Mutfak</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">Seyahat</a>
-                            </li>
-                        </ul>
+                            </span><span class="border px-3 p-1 add-experience"><i class="fa fa-plus"></i>&nbsp;İlgi
+                                Alanlari</span></div><br>
+                        <div class="col-md-12"><label class="labels">Experience in Designing</label><input type="text"
+                                class="form-control" placeholder="experience" value=""></div> <br>
+                        <div class="col-md-12"><label class="labels">Additional Details</label><input type="text"
+                                class="form-control" placeholder="additional details" value=""></div>
                     </div>
                 </div>
                 <section class="mt-4">
