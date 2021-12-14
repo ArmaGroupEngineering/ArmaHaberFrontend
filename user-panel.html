@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>Kullanıcı Profili</title>
+    <title>Kullanıcı Paneli</title>
     <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="/assets/css/navbar.css">
     <link rel="stylesheet" href="/assets/css/breakingNews.css">
     <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/email.css">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
 
 
@@ -101,37 +102,95 @@
                         </div>
                     </nav>
                 </div>
-            </div>
-
-            <div class="ticker-wrap">
-                <div class="ticker">
-                    <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
-                    <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya imza
-                        attı</a>
-                    <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
-                        gerginliği</a>
-                    <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı vurdu:
-                        Dalga boyu 3
-                        metreyi aştı, köprü çöktü </a>
-                    <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
-                        gelişmeleri
-                    </a>
-                    <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un altını
-                        gördü </a>
-                    <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
-                    <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla ellerinde
-                        toza
-                        döndü
-                    </a>
-                    <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
-                        Jandarmalar
-                        eşini ondan
-                        korumaya çalışıyordu </a>
+                <hr id="nav-divider">
+                <div id="nav-backgr">
+                    <div class="container-md">
+                        <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
+                            style="background-color: darkred">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav mb-3 mb-lg-0 ">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Haber</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Son Dakika</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Spor</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Siyaset</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Magazin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sanat</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Mutfak</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Seyahat</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Diğer
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-            <hr id="sdk-seperator">
-        </nav>
-    </header>
+                <div class="container-fluid">
+                    <div class="ticker-wrap">
+                        <div class="ticker">
+                            <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
+                            <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya
+                                imza
+                                attı</a>
+                            <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
+                                gerginliği</a>
+                            <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı
+                                vurdu:
+                                Dalga boyu 3
+                                metreyi aştı, köprü çöktü </a>
+                            <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
+                                gelişmeleri
+                            </a>
+                            <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un
+                                altını
+                                gördü </a>
+                            <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
+                            <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla
+                                ellerinde
+                                toza
+                                döndü
+                            </a>
+                            <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
+                                Jandarmalar
+                                eşini ondan
+                                korumaya çalışıyordu </a>
+                        </div>
+                    </div>
+                </div>
+                <hr id="sdk-seperator">
+            </nav>
+        </header>
 
     <section id="panel1">
         <div class="container-lg">
