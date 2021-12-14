@@ -22,8 +22,8 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>Güzel Haber Başlığı, Kötü Haberlerin Paylaşılmasına İşte Böyle Engel Oldu!</title>
-
+    <title>Güzel haber İçeriğinin Başlığı</title>
+    <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -33,8 +33,8 @@
     <link rel="stylesheet" href="/assets/css/breakingNews.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/email.css">
-    <link rel="stylesheet" href="assets/css/newsContent.css">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+
 
 </head>
 
@@ -42,7 +42,7 @@
     <div class="container-fluid body-holder">
         <header class="top-header">
             <nav>
-                <div class="containerfluid ">
+                <div class="container-md ">
                     <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark ">
                         <img src="assets/images/armalogo.jpg" alt="Arma Haber Logo">
                         <a class="navbar-brand" href="index.html">Arma Group</a>
@@ -62,17 +62,9 @@
                                         <a class="nav-link" aria-current="page" href="#">Yazarlar</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Yaşam</a>
+                                        <a class="nav-link" href="contact.html">İletişim</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Hava Durumu</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">İletişim</a>
-                                    </li>
-
                                 </ul>
-
                             </div>
                             <ul class="navbar-nav mb-3 mb-lg-0">
                                 <li class="nav-item dropdown">
@@ -111,8 +103,6 @@
                                     </ul>
                                 </li>
                             </ul>
-
-
                             <form class="d-flex">
 
                                 <input class="form-control me-2" type="search" placeholder="Haber Bul..."
@@ -120,16 +110,12 @@
                                 <button class="btn btn-outline-primary" type="submit"><i
                                         class="fas fa-search"></i></button>
                             </form>
-
-
                         </div>
                     </nav>
-
-
                 </div>
                 <hr id="nav-divider">
                 <div id="nav-backgr">
-                    <div class="container-fluid">
+                    <div class="container-md">
                         <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
                             style="background-color: darkred">
                             <div class="container-fluid">
@@ -164,12 +150,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Seyahat</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Sanat</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Mutfak</a>
-                                        </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -187,31 +167,36 @@
                         </nav>
                     </div>
                 </div>
-
-                <div class="ticker-wrap">
-                    <div class="ticker">
-                        <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
-                        <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya imza
-                            attı</a>
-                        <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
-                            gerginliği</a>
-                        <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı vurdu:
-                            Dalga boyu 3
-                            metreyi aştı, köprü çöktü </a>
-                        <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
-                            gelişmeleri
-                        </a>
-                        <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un altını
-                            gördü </a>
-                        <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
-                        <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla ellerinde
-                            toza
-                            döndü
-                        </a>
-                        <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
-                            Jandarmalar
-                            eşini ondan
-                            korumaya çalışıyordu </a>
+                <div class="container-md">
+                    <div class="ticker-wrap">
+                        <div class="ticker">
+                            <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
+                            <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya
+                                imza
+                                attı</a>
+                            <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
+                                gerginliği</a>
+                            <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı
+                                vurdu:
+                                Dalga boyu 3
+                                metreyi aştı, köprü çöktü </a>
+                            <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
+                                gelişmeleri
+                            </a>
+                            <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un
+                                altını
+                                gördü </a>
+                            <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
+                            <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla
+                                ellerinde
+                                toza
+                                döndü
+                            </a>
+                            <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
+                                Jandarmalar
+                                eşini ondan
+                                korumaya çalışıyordu </a>
+                        </div>
                     </div>
                 </div>
                 <hr id="sdk-seperator">
@@ -219,7 +204,7 @@
         </header>
         <section id="content-display">
             <div class="homepage-contents">
-                <div class="container-lg">
+                <div class="container-md">
                     <div id="content-holder">
                         <div class="container-fluid">
                             <div class="row">
@@ -273,7 +258,7 @@
                             </div>
 
                         </div>
-                        <div class="container-fluid">
+                        <div class="container-md">
                             <div class="row">
                                 <div class="col-md-7 mb-3">
                                     <div style="align-items: left;">
@@ -426,7 +411,7 @@
         </section>
         <section id="comment-area">
             <div class="add-comment">
-                <div class="container-lg">
+                <div class="container-md">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-7 mb-5">
@@ -455,7 +440,7 @@
                 </div>
             </div>
             <div class="comments-added">
-                <div class="container-lg">
+                <div class="container-md">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="headings d-flex justify-content-between align-items-center mb-3">
@@ -539,7 +524,7 @@
         </section>
         <section id="content-display">
             <div class="homepage-contents mt-5">
-                <div class="container-lg">
+                <div class="container-md">
                     <div id="content-holder">
                         <h3>Benzer Haberler</h3>
                         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">

@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>ARMA HABER</title>
+    <title>Kullanıcı Profili</title>
     <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
@@ -34,199 +34,328 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/email.css">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
-    <link rel="stylesheet" href="/assets/css/user-panel.css">
+
 
 </head>
 
 <body>
-    <header class="top-header">
-        <nav>
-            <div class="containerfluid ">
-                <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark ">
-                    <img src="assets/images/armalogo.jpg" alt="Arma Haber Logo">
-                    <a class="navbar-brand" href="index.html">Arma Group</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav me-auto mb-3 mb-lg-0 "></ul>
+    <div class="container-fluid body-holder">
+        <header class="top-header">
+            <nav>
+                <div class="container-md ">
+                    <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark ">
+                        <img src="assets/images/armalogo.jpg" alt="Arma Haber Logo">
+                        <a class="navbar-brand" href="index.html">Arma Group</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav mb-3 mb-lg-0 ">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Gündem</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Yazarlar</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Yaşam</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Hava Durumu</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Haber Bul..."
-                                aria-label="Search">
-                            <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
-                        </form>
-                    </div>
-                </nav>
-
-
-            </div>
-            <hr id="nav-divider">
-            <div id="nav-backgr">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg navbar-light" id="second-nav" style="background-color: darkred">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                            <ul class="navbar-nav me-auto mb-3 mb-lg-0 "></ul>
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav mb-3 mb-lg-0 ">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Haber</a>
+                                        <a class="nav-link" aria-current="page" href="#">Gündem</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Son Dakika</a>
+                                        <a class="nav-link" aria-current="page" href="#">Yazarlar</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Spor</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Siyaset</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Magazin</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Sanat</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Mutfak</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Seyahat</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Sanat</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Mutfak</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Diğer
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                        </ul>
+                                        <a class="nav-link" href="contact.html">İletişim</a>
                                     </li>
                                 </ul>
                             </div>
+                            <ul class="navbar-nav mb-3 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span style="color: Dodgerblue; padding-right:1em;"><i
+                                                class="fas fa-user fa-2x"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="container login-form-nav">
+                                            <div class="card my-5">
+                                                <form class="card-body cardbody-color">
+                                                    <div class="text-center">
+                                                        <img src="assets/images/armalogo.jpg"
+                                                            class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                                                            width="200px" alt="profile">
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" id="Username"
+                                                            aria-describedby="emailHelp" placeholder="User Name">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="password" class="form-control" id="password"
+                                                            placeholder="password">
+                                                    </div>
+                                                    <div class="text-center"><button type="submit"
+                                                            class="btn btn-color px-5 mb-5 w-100">Login</button></div>
+                                                    <div id="emailHelp" class="form-text text-center mb-5 text-dark">Not
+                                                        Registered? <a href="#" class="text-dark fw-bold"> Create an
+                                                            Account</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+
+                                <input class="form-control me-2" type="search" placeholder="Haber Bul..."
+                                    aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit"><i
+                                        class="fas fa-search"></i></button>
+                            </form>
                         </div>
                     </nav>
                 </div>
-            </div>
-
-            <div class="ticker-wrap">
-                <div class="ticker">
-                    <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
-                    <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya imza
-                        attı</a>
-                    <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
-                        gerginliği</a>
-                    <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı vurdu:
-                        Dalga boyu 3
-                        metreyi aştı, köprü çöktü </a>
-                    <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
-                        gelişmeleri
-                    </a>
-                    <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un altını
-                        gördü </a>
-                    <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
-                    <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla ellerinde
-                        toza
-                        döndü
-                    </a>
-                    <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
-                        Jandarmalar
-                        eşini ondan
-                        korumaya çalışıyordu </a>
-                </div>
-            </div>
-            <hr id="sdk-seperator">
-        </nav>
-    </header>
-    <section id="panel">
-        <div class="container rounded bg-white mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-3 border-right">
-                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
-                            class="rounded-circle mt-5" width="150px"
-                            src="assets/images/person-icon.png"><span
-                            class="font-weight-bold">Utku Akyüz</span><span
-                            class="text-black-50">utk145u@gmail.com</span><span>YAZAR/ÇAYLAK</span></div>
-                </div>
-                <div class="col-md-5 border-right">
-                    <div class="p-3 py-5">
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h4 class="text-right">Profile Settings</h4>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col-md-6"><label class="labels">İsim</label><input type="text"
-                                    class="form-control" placeholder="first name" value=""></div>
-                            <div class="col-md-6"><label class="labels">Soyisim</label><input type="text"
-                                    class="form-control" value="" placeholder="surname"></div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-12"><label class="labels">Numara</label><input type="text"
-                                    class="form-control" placeholder="enter phone number" value=""></div>
-                            <div class="col-md-12"><label class="labels">Email ID</label><input type="text"
-                                    class="form-control" placeholder="enter email id" value=""></div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-6"><label class="labels">Ülke</label><input type="text"
-                                    class="form-control" placeholder="country" value=""></div>
-                            <div class="col-md-6"><label class="labels">Şehir</label><input type="text"
-                                    class="form-control" value="" placeholder="state"></div>
-                        </div>
-                        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save
-                                Profile</button></div>
+                <hr id="nav-divider">
+                <div id="nav-backgr">
+                    <div class="container-md">
+                        <nav class="navbar navbar-expand-lg navbar-light" id="second-nav"
+                            style="background-color: darkred">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav mb-3 mb-lg-0 ">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Haber</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Son Dakika</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Spor</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Siyaset</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Magazin</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sanat</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Mutfak</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Seyahat</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Diğer
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="p-3 py-5">
-                        <div class="d-flex justify-content-between align-items-center experience"><span>İlgi Alanlarını Düzenle
-                            
-                        </span><span class="border px-3 p-1 add-experience"><i
-                                    class="fa fa-plus"></i>&nbsp;İlgi Alanlari</span></div><br>
-                        <div class="col-md-12"><label class="labels">Experience in Designing</label><input type="text"
-                                class="form-control" placeholder="experience" value=""></div> <br>
-                        <div class="col-md-12"><label class="labels">Additional Details</label><input type="text"
-                                class="form-control" placeholder="additional details" value=""></div>
+                <div class="container-md">
+                    <div class="ticker-wrap">
+                        <div class="ticker">
+                            <a class="ticker__item" href="#">Son Dakika: Asgari ücrette zam pazarlığı devam ediyor!</a>
+                            <a class="ticker__item" href="#">Son dakika: Cumhurbaşkanı Erdoğan Katar'la 12 anlaşmaya
+                                imza
+                                attı</a>
+                            <a class="ticker__item" href="#">Galatasaray'da maç öncesi Fatih Terim ve Burak Elmas
+                                gerginliği</a>
+                            <a class="ticker__item" href="#">Meteoroloji'nin uyarılarının ardından fırtına Antalya'yı
+                                vurdu:
+                                Dalga boyu 3
+                                metreyi aştı, köprü çöktü </a>
+                            <a class="ticker__item" href="#">Son dakika ekonomi haberleri! Ekonomi dünyasının güncel
+                                gelişmeleri
+                            </a>
+                            <a class="ticker__item" href="#">Mak Danışmanlık'tan Kulat: AK Parti ilk defa yüzde 30'un
+                                altını
+                                gördü </a>
+                            <a class="ticker__item" href="#">Memur zammında masadaki iki senaryo </a>
+                            <a class="ticker__item" href="#">İnşaat işçisinin paylaştığı video gündem oldu! Tuğla
+                                ellerinde
+                                toza
+                                döndü
+                            </a>
+                            <a class="ticker__item" href="#">Eski uzman çavuş, eski silah arkadaşlarıyla çatıştı!
+                                Jandarmalar
+                                eşini ondan
+                                korumaya çalışıyordu </a>
+                        </div>
                     </div>
                 </div>
+                <hr id="sdk-seperator">
+            </nav>
+        </header>
+        <section id="panel">
+            <div class="container-md">
+                <div class="container rounded bg-white mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-md-3 border-right">
+                            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
+                                    class="rounded-circle mt-5" width="150px" src="assets/images/person-icon.png"><span
+                                    class="font-weight-bold">Utku Akyüz</span><span
+                                    class="text-black-50">utk145u@gmail.com</span><span>YAZAR/ÇAYLAK</span></div>
+                        </div>
+                        <div class="col-md-5 border-right">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4 class="text-right">Profile Settings</h4>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-md-6"><label class="labels">İsim</label><input type="text"
+                                            class="form-control" placeholder="first name" value=""></div>
+                                    <div class="col-md-6"><label class="labels">Soyisim</label><input type="text"
+                                            class="form-control" value="" placeholder="surname"></div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12"><label class="labels">Numara</label><input type="text"
+                                            class="form-control" placeholder="enter phone number" value=""></div>
+                                    <div class="col-md-12"><label class="labels">Email ID</label><input type="text"
+                                            class="form-control" placeholder="enter email id" value=""></div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-6"><label class="labels">Ülke</label><input type="text"
+                                            class="form-control" placeholder="country" value=""></div>
+                                    <div class="col-md-6"><label class="labels">Şehir</label><input type="text"
+                                            class="form-control" value="" placeholder="state"></div>
+                                </div>
+                                <div class="mt-5 text-center"><button class="btn btn-primary profile-button"
+                                        type="button">Save
+                                        Profile</button></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center experience"><span>İlgi
+                                        Alanlarını Düzenle
+
+                                    </span><span class="border px-3 p-1 add-experience"><i
+                                            class="fa fa-plus"></i>&nbsp;İlgi
+                                        Alanlari</span></div><br>
+                                <div class="col-md-12"><label class="labels">Experience in Designing</label><input
+                                        type="text" class="form-control" placeholder="experience" value=""></div> <br>
+                                <div class="col-md-12"><label class="labels">Additional Details</label><input
+                                        type="text" class="form-control" placeholder="additional details" value="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center text-md-start mt-5">
+            <div class="container p-4">
+                <div class="row">
+                    <section class="mt-4">
+                        <form action="" class="mb-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-auto">
+                                    <p class="pt-2">
+                                        <strong>Haber bültenimize kayıt olun</strong>
+                                    </p>
+                                </div>
+                                <div class="col-md-5 col-12">
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="email" class="form-control" placeholder="E-Posta Adresiniz..." />
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                        Abone Ol
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">ARMA HABER</h5>
+                        <p>Arma Haber, Global dünyaya bir tık kadar yakınsınız. Anlık son dakika haberleri, en son
+                            haberler,
+                            gazete manşetleri, köşe yazarları, namaz vakitleri, yerel haberler, siyaset, spor,
+                            ekonomi
+                            ve
+                            daha fazlası Arma Haber'de.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-white">Haber</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Son Dakika</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Spor</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Magazin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white">Sanat</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Müzik</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Mutfak</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white">Seyahat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="mt-4">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto" style="font-size: 0.7rem;">
+                            <a href="#facebook" style="color: white;"><i class="fab fa-facebook fa-2x"></i></a>
+                            &nbsp;
+                            <a href="#twitter" style="color: white"><i class="fab fa-twitter fa-2x"></i></a> &nbsp;
+                            <a href="#instagram" style="color: white"><i class="fab fa-instagram fa-2x"></i></a>
+                            &nbsp;
+                            <a href="#google" style="color: white"><i class="fab fa-google fa-2x"></i></a> &nbsp;
+                            <a href="#apple" style="color: white"><i class="fab fa-apple fa-2x"></i></a> &nbsp;
+                            <a href="#linkedin" style="color: white"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright:
+                <a class="text-white" href="#">armahaber.com</a>
+            </div>
+        </footer>
 
 
 
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
-    <script src="/assets/fontawesome/js/all.js"></script>
-    <script src="/assets/js/script.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
+        <script src="/assets/fontawesome/js/all.js"></script>
+        <script src="/assets/js/script.js"></script>
 
 </body>
 
