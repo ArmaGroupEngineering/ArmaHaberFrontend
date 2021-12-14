@@ -10,10 +10,6 @@ section .row{
     padding: 15px;
     border-radius: 0.2%;
 }
-.like-buttons{
-    margin-top: 1em;
-    color:black;
-}
 
 .sharebuttons a { color: #fff !important; }
 .btn-facebook { background: #3b5998;}
