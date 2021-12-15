@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>Son Dakika Haberler</title>
+    <title>ARMA HABER</title>
     <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
@@ -96,9 +96,6 @@
                                                     <div class="mb-3">
                                                         <input type="password" class="form-control" id="password"
                                                             placeholder="Parola">
-                                                    </div>
-                                                    <div class="text-center"><button type="submit"
-                                                            class="btn btn-primary px-5 mb-5 w-100">Giriş Yap</button>
                                                     </div>
                                                     <div class="text-center"><button type="submit"
                                                             class="btn btn-color px-5 mb-5 w-100"><a
@@ -217,164 +214,117 @@
             </nav>
         </header>
         <!-- END OF HEADER -->
-        <!-- JUMBOTRON -->
-        <div id="intro" class="p-5 text-center" style="background-color: darkred;">
-            <h1 class="mb-3 h2 text-light">Son Dakika Haberleri</h1>
-            <p class="mb-3 text-light">En Güncel Haberlere Arma ile Ulaşın</p>
-        </div>
-        <!-- END OF JUMBOTRON -->
 
-        <!--MAIN LAYOUT-->
-        <main class="my-5">
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-md-9 mb-4">
-                        <!-- CONTENT -->
-                        <section>
-                            <!-- POST -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                        <a href="#">
-                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+        <!-- SIGNUP / REGISTRATION FORM -->
+
+        <section>
+            <div class="container py-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-9 col-xl-7">
+                        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                            <div class="card-body p-4 p-md-5">
+                                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Arma'ya Kayıt Olun!</h3>
+                                <form>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+
+                                            <div class="form-outline">
+                                                <input type="text" id="firstName"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="firstName">İsim</label>
                                             </div>
-                                        </a>
+
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+
+                                            <div class="form-outline">
+                                                <input type="text" id="lastName" class="form-control form-control-lg" />
+                                                <label class="form-label" for="lastName">Soyisim</label>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="newsContent.html" style="text-decoration: none;">Güzel Haber
-                                            Başlığı</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4 d-flex align-items-center">
 
-                                    <a href="newsContent.html"><button type="button" class="btn btn-primary">Devamını
-                                            Oku</button></a>
-                                </div>
-                            </div>
+                                            <div class="form-outline w-100">
+                                                <input type="text" class="form-control form-control-lg" id="country" />
+                                                <label for="country" class="form-label">Ülke</label>
+                                            </div>
 
-                            <!-- POST -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        </div>
+                                        <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                                            <div class="form-outline w-100">
+                                                <input type="text" class="form-control form-control-lg" id="city" />
+                                                <label for="city" class="form-label">Şehir</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+
+                                            <h6 class="mb-2 pb-1">Cinsiyet: </h6>
+
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="femaleGender" value="option1" checked />
+                                                <label class="form-check-label" for="femaleGender">Kadın</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="maleGender" value="option2" />
+                                                <label class="form-check-label" for="maleGender">Erkek</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="otherGender" value="option3" />
+                                                <label class="form-check-label" for="otherGender">Belirtmek
+                                                    İstemiyorum</label>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="newsContent.html" style="text-decoration: none;">Kötü Haber Başlığı</a>
-                                    </h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4 pb-2">
 
-                                    <a href="newsContent.html"><button type="button" class="btn btn-primary">Devamını
-                                            Oku</button></a>
-                                </div>
-                            </div>
+                                            <div class="form-outline">
+                                                <input type="email" id="emailAddress"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="emailAddress">E-Posta Adresiniz</label>
+                                            </div>
 
-                            <!-- POST -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                        </div>
+                                        <div class="col-md-6 mb-4 pb-2">
+
+                                            <div class="form-outline">
+                                                <input type="tel" id="phoneNumber"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="phoneNumber">Telefon Numaranız</label>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="newsContent.html" style="text-decoration: none;">İyi Haber Başlığı</a>
-                                    </h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.dsgds
-                                    </p>
 
-                                    <a href="newsContent.html"><button type="button" class="btn btn-primary">Devamını
-                                            Oku</button></a>
-                                </div>
-                            </div>
-
-                            <!-- POST -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
+                                    <div class="mt-4 pt-2">
+                                        <input class="btn btn-primary btn-lg" type="submit" value="Kayıt Ol!" />
                                     </div>
-                                </div>
 
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="newsContent.html" style="text-decoration: none;">Çirkin Haber
-                                            Başlığı</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="newsContent.html"><button type="button" class="btn btn-primary">Devamını
-                                            Oku</button></a>
-                                </div>
+                                </form>
                             </div>
-                        </section>
-                        <!--END OF CONTENT -->
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <!-- AD -->
-                        <section class="sticky-top" style="top: 80px;">
-                            <section class="text-center border-bottom pb-4 mb-4">
-                                <div class="bg-image hover-overlay ripple mb-4">
-                                    <img src="/assets/images/armalogo.jpg" class="img-fluid" />
-                                </div>
-                                <h5>Burası Reklam Başlığı Olacak</h5>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis maiores
-                                    minima quis? Voluptatibus deleniti, eum mollitia aliquid at quidem officia laborum
-                                    repudiandae quod ipsam facilis recusandae maxime doloremque excepturi?
-                                </p>
-                                <a role="button" class="btn btn-primary" href="#" target="_blank">Hemen Kullanmaya
-                                    Başla<i class="fas fa-download ms-2"></i></a>
-                            </section>
-                        </section>
-                        <!-- END OF AD -->
+                        </div>
                     </div>
                 </div>
-
-                <!-- PAGINATION -->
-                <nav class="my-4" aria-label="...">
-                    <ul class="pagination pagination-circle justify-content-center">
-                        <li class="page-item">
-                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Önceki</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item active" aria-current="page">
-                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Sonraki</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-        </main>
-        <!-- END OF MAIN LAYOUT -->
+        </section>
+
+        <!-- END OF SIGNUP / REGISTRATION FORM -->
+
 
         <!-- FOOTER -->
         <footer class="bg-dark text-white text-center text-md-start mt-5">
