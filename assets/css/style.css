@@ -74,3 +74,12 @@ h2 {
     text-align: center; 
     align-items: center;
 }
+
+.editprofilebutton {
+    text-decoration: none;
+    color: black;
+}
+
+.editprofilebutton:hover {
+    color: white;
+}

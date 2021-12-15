@@ -22,7 +22,7 @@
     <meta property="twitter:description" content="Arma Haber, Global dünyaya bir tık kadar yakınsınız.">
     <meta property="twitter:image" src="/assets/images/armalogo.jpg">
 
-    <title>Kategoriler</title>
+    <title>Profil Ayarları</title>
     <script src="/assets/js/infinite-scroll.pkgd.min.js"></script>
     <!-- OUR OWN CSS LINKS -->
 
@@ -98,7 +98,7 @@
                                                             placeholder="Parola">
                                                     </div>
                                                     <div class="text-center"><button type="submit"
-                                                            class="btn btn-primary px-5 mb-5 w-100">Giriş Yap</button>
+                                                            class="btn btn-color px-5 mb-5 w-100">Giriş Yap</button>
                                                     </div>
                                                     <div class="text-center"><button type="submit"
                                                             class="btn btn-color px-5 mb-5 w-100"><a href="user-panel.html" style="text-decoration: none;">Profili Görüntüle</a></button>
@@ -214,256 +214,70 @@
             </nav>
         </header>
         <!-- END OF HEADER -->
-        <!-- Jumbotron -->
-        <div id="intro" class="p-5 text-center" style="background-color: darkred;">
-            <h1 class="mb-3 h2 text-light">Tüm Kategoriler</h1>
-            <p class="mb-3 text-light">En Güncel Haberlere Arma ile Ulaşın</p>
-        </div>
-        <!-- Jumbotron -->
-        <!--Main Navigation-->
 
-        <!--Main layout-->
-        <main class="my-5">
+        
+        <!-- EDIT PROFILE SETTINGS -->
+        <section id="panel">
             <div class="container-md">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-9 mb-4">
-                        <!--Section: Content-->
-                        <section>
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                        <a href="#">
-                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
-                                            </div>
-                                        </a>
+                <div class="container rounded bg-white mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-md-3 border-right">
+                            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
+                                    class="rounded-circle mt-5" width="150px" src="assets/images/person-icon.png"><span
+                                    class="font-weight-bold">Mehmet Ali Birand</span><span
+                                    class="text-black-50">mehmetalibirand@gmail.com</span><span>YAZAR/USTA</span></div>
+                        </div>
+                        <div class="col-md-5 border-right">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h4 class="text-right">Profil Ayarları</h4>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-md-6"><label class="labels">İsim</label><input type="text"
+                                            class="form-control" placeholder="İsim" value=""></div>
+                                    <div class="col-md-6"><label class="labels">Soyisim</label><input type="text"
+                                            class="form-control" value="" placeholder="Soyisim"></div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12"><label class="labels">Telefon Numarası</label><input
+                                            type="text" class="form-control" placeholder="Telefon Numarası" value="">
+                                    </div>
+                                    <div class="col-md-12"><label class="labels">E-Posta Adresi</label><input
+                                            type="text" class="form-control" placeholder="E-Posta Adresi" value="">
                                     </div>
                                 </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-6"><label class="labels">Ülke</label><input type="text"
+                                            class="form-control" placeholder="Ülke" value=""></div>
+                                    <div class="col-md-6"><label class="labels">Şehir</label><input type="text"
+                                            class="form-control" value="" placeholder="Şehir"></div>
+                                </div>
+                                <div class="mt-5 text-center"><button class="btn btn-primary profile-button"
+                                        type="button">Profili Kaydet</button></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center experience"><span>İlgi
+                                        Alanlarını Düzenle
 
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Siyaset
-                                            Haberleri</a></h5>
-                                    <p>
-                                        <b>En güncel son dakika haberleri Arma'da. Arma sizin için en güncel haberleri
-                                            toplar ve en güzel bir biçimde sunar.</b> Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit. Sint deserunt, omnis, culpa ad nesciunt, voluptas
-                                        modi iusto quasi aspernatur nam sed maxime!
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
+                                    </span>
+                                    <span class="border px-3 p-1 add-experience">
+                                        <i class="fa fa-plus"></i>&nbsp;İlgi Alanları</span></div><br>
+                                <div class="col-md-12"><label class="labels">Yazarlık Tecrübesi</label><input
+                                        type="text" class="form-control" placeholder="Yazarlık Tecrübesi" value="">
+                                </div> <br>
+                                <div class="col-md-12"><label class="labels">Ek Bilgiler</label><input type="text"
+                                        class="form-control" placeholder="Ek Bilgiler" value="">
                                 </div>
                             </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Magazin
-                                            Haberleri</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Dünyadan
-                                            Haberler</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Spor Haberleri</a>
-                                    </h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Mutfak
-                                            Haberleri</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Son Dakika
-                                            Haberleri</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Siyaset
-                                            Haberleri</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-
-                            <!-- Post -->
-                            <div class="row mb-3">
-                                <div class="col-md-4 mb-4">
-                                    <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
-                                        data-mdb-ripple-color="light">
-                                        <img src="/assets/images/day.jpg" class="img-fluid" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-8 mb-4">
-                                    <h5><a href="categoryContent.html" style="text-decoration: none;">Seyahat
-                                            Haberleri</a></h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione
-                                        necessitatibus itaque error alias repellendus nemo reiciendis aperiam quisquam
-                                        minus ipsam reprehenderit commodi ducimus, in dicta aliquam eveniet dignissimos
-                                        magni.
-                                    </p>
-
-                                    <a href="categoryContent.html"><button type="button"
-                                            class="btn btn-primary">Haberlere Göz Gezdir</button></a>
-                                </div>
-                            </div>
-                        </section>
-                        <!--Section: Content-->
+                        </div>
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-3 mb-4">
-                        <!--Section: Sidebar-->
-                        <section class="sticky-top" style="top: 80px;">
-                            <!--Section: Ad-->
-                            <section class="text-center border-bottom pb-4 mb-4">
-                                <div class="bg-image hover-overlay ripple mb-4">
-                                    <img src="/assets/images/armalogo.jpg" class="img-fluid" />
-                                    <a href="#" target="_blank">
-                                        <div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
-                                    </a>
-                                </div>
-                                <h5>Burası Reklam Başlığı Olacak</h5>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis maiores
-                                    minima quis? Voluptatibus deleniti, eum mollitia aliquid at quidem officia laborum
-                                    repudiandae quod ipsam facilis recusandae maxime doloremque excepturi?
-                                </p>
-                                <a role="button" class="btn btn-primary" href="#" target="_blank">Hemen Kullanmaya
-                                    Başla<i class="fas fa-download ms-2"></i></a>
-                            </section>
-                            <!--Section: Ad-->
-                        </section>
-                        <!--Section: Sidebar-->
-                    </div>
-                    <!--Grid column-->
                 </div>
-                <!--Grid row-->
-
             </div>
-        </main>
-        <!--Main layout-->
+        </section>
+        <!-- END OF EDIT PROFILE SETTINGS -->
+
 
         <!-- FOOTER -->
         <footer class="bg-dark text-white text-center text-md-start mt-5">
